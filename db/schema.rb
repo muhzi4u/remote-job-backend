@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_07_16_110255) do
 
   create_table "jobs", force: :cascade do |t|
     t.string "title"
-    t.integer "description"
+    t.string "description"
     t.string "url"
     t.string "company"
     t.string "company_logo"
